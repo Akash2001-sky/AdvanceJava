@@ -4,6 +4,7 @@ public class User {
 	
 	private String Username;
 	private String Password;
+	private String Name;
 	
 	
 	public User() {
