@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "example.entity.Course" table="Course_Master"><!-- Mapping between class and table -->
+      <id name = "courseID" type = "string" column="course_id" length="4"/>            
+      <property name = "name" column = "course_name" type = "string"/>
+      <property name = "duration" column = "course_duration" type = "int"/>
+      <property name = "fees" type = "int">
+      	<column name="course_fees"/>
+      </property>     
+   </class>
+</hibernate-mapping>
