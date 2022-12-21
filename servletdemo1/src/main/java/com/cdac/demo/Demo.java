@@ -22,7 +22,9 @@ public class Demo extends HttpServlet {
 	PrintWriter out = response.getWriter();
 	out.print("<title>CDAC</title>");
 	out.print("<h1><marquee>Welcome to cdac </marquee></h1>");
+	out.print("<h1><marquee>Welcome to cdac </marquee></h1>");
 		//Here is the comment
+	
 	}
 
 	/**
